@@ -1,0 +1,9 @@
+let weightMark = 78;
+let heightMark = 1.69;
+let weightJohn = 92;
+let heightJohn = 1.95;
+let BMImark=weightMark/(heightMark**2);
+let BMIjohn=weightJohn/(heightJohn**2);
+let markHigherBMI= BMImark>BMIjohn;
+console.log(BMIjohn,BMImark);
+console.log(markHigherBMI);
